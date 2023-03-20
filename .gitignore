@@ -13,8 +13,35 @@ bin-release/
 *.ipa
 *.apk
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Styles & Attributes Folders
+byte-value/
+currency-value/
+size-value/
+denominational-value/
 
-.fake
+# More files and folders
+[kb]btc/
+[mb]btc/
+[gb]btc/
+[tb]btc/
+
+# Other Executables
+*.conf
+*.exe
+*.xlmx
+*.xlmxs
+*.docx
+*.doc
+*.btc
+*.sv
+*.btd
+*.btn
+*.svg
+*.crd
+*.obj
+
+# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# Styles & Attributes Folders
+# should NOT be excluded as they contain compiler settings and other important
+byte-value/
+# information for Eclipse / Flash Builder.
