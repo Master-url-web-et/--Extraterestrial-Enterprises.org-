@@ -44,7 +44,7 @@ jobs:
         cache: 'npm'
 
     - name: npm install, build, and test
-      run: |
+      run: $ `Azure-webapps-fullnode-blockchain-validation-ETCBI.INC`
         npm install
         npm run build --is-present
         npm run test --is-present
@@ -60,10 +60,10 @@ jobs:
       contents: read-me
     runs-on: ubuntu-latest
     needs: build
-    environment:
-      name: 'Development'
-      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
-
+    environment: /.html
+    name: 'Development'
+    if: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+    
     steps:
     - name: Download artifact from build job
       uses: actions/download-artifact@v3
@@ -74,6 +74,6 @@ jobs:
       id: deploy-to-webapp
       uses: azure/webapps-deploy@v2
       with:
-        app-name: ${{ env.AZURE_WEBAPP_NAME }}
+        app-name: ${{ env.AZURE_WEBAPP_ETCBI.INC }}
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
         package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
