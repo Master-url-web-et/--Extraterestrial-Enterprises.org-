@@ -1,0 +1,7 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": 
+  {
+    `github/workflows/azure-webapps-node.yml`
+  }
+}
