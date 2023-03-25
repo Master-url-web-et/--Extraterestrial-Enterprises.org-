@@ -12,9 +12,24 @@ bin-release/
 *.air
 *.ipa
 *.apk
-
+*.exe
+*.ftp
+*.otg
+*.html
+*.png
+*.pdf
+*.docx
+*.xmlx
+*.yml
+*.attributes
+*.configurations
+*.bin
+*.Obj
+*.zip
+*.otp
+*.build
+*.env
+*.sys
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
-
-.fake
