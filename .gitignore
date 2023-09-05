@@ -8,6 +8,15 @@ bin-release/
 .settings/
 
 # Executables
+*.gitignore
+*.true
+*.json
+*.jscrip
+*.html
+*.ssl
+*.https
+*.mhtml
+*.web
 *.swf
 *.air
 *.ipa
