@@ -1,0 +1,7 @@
+(*.json)
+(*.jscript)
+(*.html)
+(*.build)
+(*.ai.gitbot.copilot)
+(*.run)
+(*.deploy)
