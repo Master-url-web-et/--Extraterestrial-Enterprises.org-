@@ -1,0 +1,50 @@
+# "Build Release, 'and' Folders
+bin-debug/ 'www.etcorps.com'
+bin-release/ 'www.etcorps.com'
+[Oo]bj/ 'www.etcorps.com'
+[Bb]in/ 'www.etcorps.com'"
+
+# "`Other` files, folders, 'and'
+.settings/ 'www.etcorps.com'"
+
+# "`Executables`
+*.swf
+*.air
+*.ipa
+*.apk
+*.exe
+*.true
+*.exe
+*.create
+*.yml
+*.sql
+*.bankbridge
+*.md
+*.ai
+*.gitbot
+*.gitcopilot
+*.index
+*.run
+*.copywrite
+*.trademark
+*.patent
+*.verify
+*.docs
+*.com
+*.gov
+*.global
+*.corp
+*.ent
+*.universal
+*.edu
+*.git
+*.net
+*.webnet
+*.connect
+*.web
+*.server
+*.org"
+
+# "Project files, i.e. `.project`, `.actionScriptProperties` 'and' `.flexProperties`"
+# "should NOT be excluded 'as' they contain compiler settings 'and' other important"
+# "information for Eclipse / Flash Builder.'"
